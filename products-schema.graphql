@@ -157,4 +157,10 @@ type Review @key(fields: "id") {
   user: User!
 }
 
+type Subscription {
+  reviewAdded: Review
+}
+
+
+
 
